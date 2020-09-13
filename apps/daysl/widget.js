@@ -1,7 +1,7 @@
 const storage = require('Storage');
 let settings;
 let height = 23; // 23
-let width = 44;
+let width = 44; // 34
 
 var debug = 0; //1 = show debug info
 
