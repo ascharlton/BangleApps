@@ -60,7 +60,7 @@ function drawWidget() {
   }
   //large if number has 1 digit (positive number)
   if (diffDays <= 9 && diffDays >= 0) {
-    g.setFont("6x8", 2);
+    g.setFont("6x8", 4);
     g.drawString(diffDays,this.x+13,this.y+4);
   }
   //large if number has 1 digit (negative number)
