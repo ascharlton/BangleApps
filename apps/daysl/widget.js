@@ -3,7 +3,7 @@ let settings;
 let height = 23; // 23
 let width = 44; // 34
 
-var debug = 1; //1 = show debug info
+var debug = 0; //1 = show debug info
 
 //write settings to file
 function updateSettings() {
