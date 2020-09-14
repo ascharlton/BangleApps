@@ -7,6 +7,9 @@ call, then create a file for it. eg.
 http://www.effectgames.com/demos/canvascycle/image.php?file=V29&callback=CanvasCycle.processImage
 
 Finally cycles just needs adding
+
+run from mac - add the processed image file from the web into a folder then run: node create-images.js and it will create three pixel files 
+
 */
 var CanvasCycle = {
   processImage : function(info) {
@@ -54,4 +57,5 @@ var CanvasCycle = {
 };
 
 //http://www.effectgames.com/demos/canvascycle/
-eval(require("fs").readFileSync("V29.LBM.js").toString());
+//eval(require("fs").readFileSync("V29.LBM.js").toString());
+eval(require("fs").readFileSync("V08.LBM.js").toString());
