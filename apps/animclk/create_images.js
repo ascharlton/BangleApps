@@ -4,11 +4,11 @@ an image from http://www.effectgames.com/demos/canvascycle/
 You just need to open devtools and find the `CanvasCycle.processImage`
 call, then create a file for it. eg.
 
+create image file:
 http://www.effectgames.com/demos/canvascycle/image.php?file=V29&callback=CanvasCycle.processImage
-
-Finally cycles just needs adding
-
-run from mac - add the processed image file from the web into a folder then run: node create-images.js and it will create three pixel files 
+and save as text file like V08.js
+add the processed image file into a folder then run: node create-images.js and it will create three pixel files 
+after uploading app, upload these three files to the root dir of bangle and reload
 
 */
 var CanvasCycle = {
