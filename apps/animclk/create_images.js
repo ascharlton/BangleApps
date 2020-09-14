@@ -58,4 +58,4 @@ var CanvasCycle = {
 
 //http://www.effectgames.com/demos/canvascycle/
 //eval(require("fs").readFileSync("V29.LBM.js").toString());
-eval(require("fs").readFileSync("V08.LBM.js").toString());
+eval(require("fs").readFileSync("V29.LBM.js").toString());
